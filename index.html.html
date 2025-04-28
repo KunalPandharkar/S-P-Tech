@@ -1,0 +1,276 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spaces & Places</title>
+  <link rel="stylesheet" href="design.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/gZzprH7h/Spaces-Places-Logo-jpeg.jpg" alt="Spaces & Places Logo" height="50">
+    <nav>
+      <a href="#">Home</a>
+
+      <a href="#designs">Designs</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>TRANSFORMING SPACES</h1>
+      <h1>CONNECTING DREAMS</h1>
+      <a href="#quote-form" class="btn">Get a Free Quote</a>
+
+    </div>
+  </section>
+
+  <section class="section designs" id="designs">
+    <h2>Design Inspirations</h2> <!-- Added title -->
+    <div class="slideshow">
+      <div class="slide" onclick="toggleGallery('gallery1')" style="background-image: url('https://i.ibb.co/qYV9nst7/living.jpg');">
+        <span>LIVING ROOM</span>
+      </div>
+      <div class="slide" onclick="toggleGallery('gallery2')" style="background-image: url('https://i.ibb.co/JMTmtVZ/Mandir-Design-ideas-Home-Temple-Designs.jpg');">
+        <span>PUJA / MANDIR DESIGN</span>
+      </div>
+      <div class="slide" onclick="toggleGallery('gallery3')" style="background-image: url('https://i.ibb.co/0pv8cp7K/master-bed.jpg');">
+        <span>MASTER BEDROOM</span>
+      </div>
+      <div class="slide" onclick="toggleGallery('gallery4')" style="background-image: url('https://i.ibb.co/1fhm7hzF/kid-s-room.jpg');">
+        <span>KID'S ROOM</span>
+      </div>
+      <div class="slide" onclick="toggleGallery('gallery5')" style="background-image: url('https://i.ibb.co/Z1w8VfD2/Bathroom-Design-Ideas-Modern-Bathroom-Decor-Small.jpg');">
+        <span>BATHROOM</span>
+      </div>
+      <div class="slide" onclick="toggleGallery('gallery6')" style="background-image: url('https://i.ibb.co/vvBNrFXt/A-luxury-modern-kitchen-design-brings-elegance-and.jpg');">
+        <span>KITCHEN</span>
+      </div>
+
+      <!-- Galleries -->
+      <div id="gallery1" class="gallery">
+        <img src="https://i.ibb.co/gLmgkqFg/Save-Untitled2.png">
+        <img src="https://i.ibb.co/sJ2GmVnC/0767ab96c962392df6947cf2f3336349.jpg">
+        <img src="https://i.ibb.co/MyF9VPRJ/f7fcda34198a5ac81bb11a31e502d95c.jpg">
+        <img src="https://i.ibb.co/9kRCsLBQ/dd39335a366f98f8d955ed76f6581ae2.jpg">
+      </div>
+      <div id="gallery2" class="gallery">
+        <img src="https://i.ibb.co/fVpFBW0g/777131326f92fa9aa9651aa044c4e6f0.jpg">
+        <img src="https://i.ibb.co/bMmvLKWC/736ac93f2579017ef8d3de2ee54bbef8.jpg">
+        <img src="https://i.ibb.co/LqxNgJN/a53715d068931761fc0630a87894131f.jpg">
+        <img src="https://i.ibb.co/v4d9thqT/c7bc14fcf2f4cf1a564b67a97bfe61bf.jpg">
+      </div>
+      <div id="gallery3" class="gallery">
+        <img src="https://i.ibb.co/ccCDwdv5/39af83328ee71b954ccad1db48bf7778.jpg">
+        <img src="https://i.ibb.co/0ySfMtSS/793923357d23327b9ca0cb5cbe14025c.jpg">
+        <img src="https://i.ibb.co/vxw2tHwc/1541f302cd490216465eb9582aa93574.jpg">
+        <img src="https://i.ibb.co/1GJ3zcYF/c3f9ce03e31e781c3343cfeeabe57270.jpg">
+      </div>
+      <div id="gallery4" class="gallery">
+        <img src="https://i.ibb.co/KpM2FchW/Children-s-Room-Decor-9-Ideas-for-a-Playful-and-Educational-Space-Melanie-Jade-Design.jpg">
+        <img src="https://i.ibb.co/5XDC864y/Buy-Professional-3-D-Models.jpg">
+        <img src="https://i.ibb.co/fGz8x7sj/Kids-inspo-1.jpg">
+        <img src="https://i.ibb.co/9MNMY9c/kids-inspo2.jpg">
+      </div>
+      <div id="gallery5" class="gallery">
+        <img src="https://i.ibb.co/gMjBYTf5/Bath-inspo1.jpg">
+        <img src="https://i.ibb.co/NdQHYxgg/Bath-inspo3.jpg">
+        <img src="https://i.ibb.co/v4F632x0/Bath-inspo4.jpg">
+        <img src="https://i.ibb.co/bRQ4rn0m/Bath-inspo2.jpg">
+      </div>
+      <div id="gallery6" class="gallery">
+        <img src="https://i.ibb.co/4ZF9cQ8s/kitchen-inspo-1.jpg">
+        <img src="https://i.ibb.co/D0wPjG0/kitchen-inspo2.jpg">
+        <img src="https://i.ibb.co/JjzV8S6f/kitchen-inspo3.jpg">
+        <img src="https://i.ibb.co/zHD7V1pZ/kitchen-inspo-4.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="service-block">
+      <div class="text">
+        <h3>Residential Interior Design</h3>
+<p>At Spaces & Places Interior Solutions, we create homes that reflect your personality and lifestyle. Our services include space planning for optimized flow, custom designs for living areas, furniture and decor selection, and complete project management through turnkey solutions. We also specialize in renovations and modern upgrades, and offer optional Vastu-based layouts for a balanced, positive space.</p>
+      </div>
+      <div class="image">
+        <img src="https://i.ibb.co/5WzcWdB7/Whats-App-Image-2025-04-28-at-11-26-00.jpg" alt="Residential Design">
+      </div>
+    </div>
+    
+    <div class="service-block">
+      <div class="image">
+        <img src="https://i.ibb.co/pvg1fnjR/Whats-App-Image-2025-04-28-at-11-29-52.jpg" alt="Commercial Design">
+      </div>
+      <div class="text">
+        <h3>Commercial Interior Design</h3>
+        <p>We know that commercial spaces need to be functional, on-brand, and inspiring. Our Commercial Interior Design Services include creating office interiors that enhance productivity, collaboration, and well-being, along with designing retail and showroom spaces that captivate customers. We also specialize in hospitality interiors, styling hotels, cafes, and restaurants for comfort and impact. Our space optimization services focus on improving efficiency, brand identity, and visitor flow. Additionally, we integrate your brand story into every aspect of the design, offering end-to-end execution from planning to sourcing, fit-outs, and final styling.</p>
+      </div>
+    </div>
+       <div class="service-block reverse">
+      <div class="image">
+        <img src="https://i.ibb.co/MDKzXnB8/Whats-App-Image-2025-04-28-at-12-04-13.jpg" alt="Inhouse Manufacturing">
+      </div>
+      <div class="text">
+        <h3>In-House Manufacturing & Production</h3>
+        <p> At Spaces & Places Interior Solutions, we take pride in offering in-house manufacturing and production for our interior projects.
+This means that the furniture, cabinetry, modular kitchens, wardrobes, and custom-made elements for your home or office are made directly by our own team, under our direct supervision — not outsourced to third-party vendors. </p>
+      </div>
+    </div>
+    
+    <div class="service-block">
+      <div class="image">
+        <img src="https://i.ibb.co/TMn8zRF3/Whats-App-Image-2025-04-28-at-12-07-09.jpg" alt="Timely Project Completion">
+      </div>
+      <div class="text">
+        <h3>Timely project completion & Handover</h3>
+        <p>We understand that time is just as crucial as design when it comes to bringing your dream space to life. We recognize that a well-designed space is only truly valuable when it’s completed on time and with minimal disruption. That’s why we make timely project completion and smooth handover a top priority in every project we undertake. Our dedicated team works efficiently, managing each phase meticulously, ensuring deadlines are met without compromising on quality. We focus on delivering your vision within the agreed timeline, so you can enjoy your new space as soon as possible, with the least amount of hassle. </p>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="section about" id="about">
+    <h2>About Spaces & Places</h2>
+    <p>Spaces & Places is a dynamic real estate & interior design firm based in Mumbai. We connect you with dream properties and craft luxurious interior solutions for homes and businesses alike.</p>
+    <p>Committed to transparency, creativity, and client-first service, we aim to transform spaces and deliver maximum value in every project.At Spaces&Places, we don't just create beautiful
+designs; we communicate your essence through every
+detail. Our team works closely with you to grasp your
+vision, needs, and style, tailoring bespoke interior
+solutions that mirror your personality and optimize
+functionality.
+Be it a snug home or a dynamic office environment, we
+excel in crafting spaces that ignite inspiration, foster
+connections, and elevate experiences. Let's begin the
+dialogue on transforming your space today. We are the
+finest interior designers in Mumbai, Thane and Navi
+Mumbai</p>
+  </section>
+
+  <section class="partners-section">
+    <h2>Our Trusted Partners</h2>
+    <div class="partners-logos">
+      <img src="https://i.ibb.co/C5HKbGF4/Prestige-group.png"  alt="Prestige Group">
+      <img src="https://i.ibb.co/0jRKsMWf/Whats-App-Image-2025-04-28-at-12-53-56.jpg" alt="Kalpataru">
+      <img src="https://i.ibb.co/3mKdzYds/Whats-App-Image-2025-04-28-at-12-48-24.jpg" alt="Rustomjee">
+      <img src="https://i.ibb.co/WvLypqLD/Whats-App-Image-2025-04-28-at-12-48-39.jpg" alt="Lodha">
+      <img src=https://i.ibb.co/4wL5Q077/Whats-App-Image-2025-04-28-at-12-48-53.jpg" alt="Godrej">
+    </div>
+  </section>
+
+  <section class="mission-section">
+    <h2>Our Mission</h2>
+    <p>Helping real estate owners maximize value through data-driven decisions, deep market expertise, and unmatched client dedication in the vibrant Mumbai real estate market.</p>
+  </section>
+
+  <!--<section class="section quote-form" id="quote-form">
+    <h2>Request a Free Quote</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="tel" placeholder="Mobile Number" required>
+      <input type="text" placeholder="Address" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Requirement Details" required></textarea>
+      <button type="submit" class="btn">Submit Request</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section about">
+        <img src="https://i.ibb.co/gZzprH7h/Spaces-Places-Logo-jpeg.jpg" alt="Spaces & Places Logo" class="footer-logo" />
+        <p>348, Powai Plaza, Hiranandani Gardens, Sainath Nagar, Powai, Mumbai, Maharashtra 400076</p>
+      </div>
+
+      <div class="footer-section links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#quote-form">Contact Us</a></li>
+          <li><a href="#">Manage Cookies</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section social" id="contact">
+        <h4>Socials</h4>
+        <div class="social-icons">
+          <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+          <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
+          <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+        </div>
+        <p>Email: info@spacesplaces.in</p>
+        <p>Phone: 9699578902</p>
+      </div>
+    </div>-->
+<!-- Contact Section -->
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any questions or need assistance, feel free to reach out to us. We're here to help!</p>
+
+
+    <!-- Request a Free Quote Form -->
+   <div class="quote-form" id="quote-form">
+      <h3>Request a Free Quote</h3>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="tel" placeholder="Mobile Number" required>
+                                                     <input type="email" placeholder="Email" required>   
+         <input type="text" placeholder="Address" required>
+        
+        <textarea placeholder="Requirement Details" required></textarea>
+        <button type="submit" class="btn">Submit Request</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  
+  <footer id="contact">
+  <div class="footer-container">
+    <div class="footer-about">
+      <img src="https://i.ibb.co/gZzprH7h/Spaces-Places-Logo-jpeg.jpg" alt="Spaces & Places" class="footer-logo">
+     
+      <p><i class="fas fa-map-marker-alt"></i> 348, Powai Plaza, Hiranandani Gardens, Sainath Nagar, Powai, Mumbai, Maharashtra 400076</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#">Manage Cookies</a></li>
+        <li><a href="#">Terms & Condition</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-socials">
+      <h4>Socials</h4>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/spacesplacesdesigns?utm_source=qr&igsh=MW10cTNiM3I4czNhdA=="><img src="https://i.ibb.co/Tqbf99CB/Whats-App-Image-2025-04-28-at-14-15-54.jpg" alt="Instagram"></a>
+        <a href="https://www.facebook.com/profile.php?id=61565562218535&mibextid=ZbWKwL"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="https://youtube.com/@spacesplaces-r3p?si=CfO0L-mz-KicMLtR"><img src="linkedin-icon.png" alt="Facebook"></a>
+      </div>
+      <p><i class="fas fa-envelope"></i> info@spacesplaces.in</p>
+      <p><i class="fas fa-phone"></i> 7506333130 / 9769282895</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Spaces & Places 2025</p>
+  </div>
+</footer>
+
+
+  <script src="design.js"></script>
+</body>
+</html>
